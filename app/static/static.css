@@ -15,16 +15,16 @@
     align-items:center;
     justify-content: center;
     flex-direction:row;
-    height: 12vh;
+    height: 15vh;
     width: 100vw;
     background-color: white
 }
 .navbarcontainer button{
-    padding: 7px 45px;
-    border: 1px solid #000;
+    padding: 6px 45px;
+    
     background-color: transparent;
     transition: 0.5s;
-    margin: 25px;
+    margin: 30px;
 }
 .navbarcontainer h1{
     position: absolute;
