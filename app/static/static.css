@@ -26,17 +26,22 @@
     transition: 0.5s;
     margin: 25px;
 }
-
 .navbarcontainer h1{
     position: absolute;
     font-size: 40px;
     letter-spacing: 3px;
     transition: 0.7s;
 }
-
 .navbarcontainer button:hover{
     font-size: 20px;
     cursor: pointer;
+}
+.navbarcontainer button:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbarcontainer a{
+    background-color: white
 }
 
 
@@ -49,10 +54,21 @@
     left: 15%;
     position: absolute;
 }
-
 .main h2 {
     top: 60%;
     left: 24%;
     position: absolute;
+}
+
+/*About Me*/
+.infocontainer{
+    display: flex;
+    flex-direction:row;
+    height: 75vh;
+    width: 80vw;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 10%;
 }
 

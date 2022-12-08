@@ -10,10 +10,10 @@
 </head>
 <body>
 <div class="navbarcontainer">
-  <button>Home</button>
-  <button>About Me</button>
-  <button>Projects</button>
-  <button>Skills</button>
+  <a href="{% url 'home' %}"> <button>  Home </button> </a>
+  <a href="{% url 'about' %}"> <button>  About Me </button> </a>
+  <a href="{% url 'projects' %}"> <button>  Projects </button> </a>
+  <a href="{% url 'skills' %}"><button>  Skills </button> </a>
 </div>
   {% block content%} 
 
